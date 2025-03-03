@@ -3,14 +3,17 @@ import { BlurFade } from "@/components/magicui/blur-fade";
 export default function Intro() {
   return (
     <>
-      <section id="header" className="flex justify-center p-8 gap-8 text-black">
+      <section
+        id="header"
+        className="flex flex-col md:flex-row justify-center p-8 gap-8 text-black"
+      >
         <img
           src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt="Hello World"
-          className="w-1/2"
+          className="w-full md:w-1/2"
         />
 
-        <div className="flex flex-col justify-center">
+        <div className="flex flex-col justify-center w-full md:w-1/2">
           <BlurFade delay={0.25} inView>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none dark:text-white">
               Hello World 👋
