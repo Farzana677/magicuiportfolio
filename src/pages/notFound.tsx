@@ -1,18 +1,17 @@
-import { useRef } from "react";
+// import { useRef } from "react";
 
 export default function notFound() {
-  const count = useRef(0);
+  // const count = useRef(0);
 
-  const handleClick = () => {
-    count.current = count.current + 2;
-    console.log(count.current);
-  };
+  // const handleClick = () => {
+  //   count.current = count.current + 2;
+  //   console.log(count.current);
+  // };
   return (
     <>
-      <button onClick={handleClick} className="bg-blue-100">
-        click mem
-      </button>
-      <p>Count...: {count.current}</p> <p>Count...: {}</p>
+      <div className="h-full w-full flex items-center justify-center">
+        <h1>page not found</h1>
+      </div>
     </>
   );
 }

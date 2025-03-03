@@ -44,17 +44,17 @@ export default function TechStack() {
         )}
         <div className="flex flex-col items-center justify-center gap-2 md:flex-row">
           <Link to="/skills">
-            <button className="bg-gray-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+            <button className="bg-gray-500 hover:bg-gray-400 text-white font-bold py-2 px-4 rounded-full">
               skillls
             </button>
           </Link>
           <Link to="/techstack">
-            <button className="bg-gray-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+            <button className="bg-gray-500 hover:bg-gray-400 text-white font-bold py-2 px-4 rounded-full">
               techstack
             </button>
           </Link>
           <Link to="/contact">
-            <button className="bg-gray-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+            <button className="bg-gray-500 hover:bg-gray-400 text-white font-bold py-2 px-4 rounded-full">
               contact
             </button>
           </Link>

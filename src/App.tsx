@@ -8,6 +8,7 @@ import Blog from "./pages/tweet";
 import ThemeContext from "./context/useContext";
 import Layout from "./layout/layout";
 import NotFound from "./pages/notFound";
+import TechStack from "./pages/techstack";
 
 export default function App() {
   const [theme, setTheme] = useState<string>("light");
@@ -29,6 +30,7 @@ export default function App() {
             <Route path="/skills" element={<Skills />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/techstack" element={<TechStack />} />
           </Route>
           <Route path="*" element={<NotFound />} />
         </Routes>
