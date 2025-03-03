@@ -58,9 +58,9 @@ export default function TechStack() {
               contact
             </button>
           </Link>
-          <button className="bg-gray-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+          {/* <button className="bg-gray-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
             Button
-          </button>
+          </button> */}
         </div>
         <OrbitingCircles iconSize={40}>
           <Icons.star />
